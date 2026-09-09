@@ -65,6 +65,14 @@ SHA1: 5819B5CFA90065C63605E544D3BE0262AF3ACC99
 
 ## Support
 
-You can join our Discord and ping Kotcrab if you have any issues or questions:
+If the game is crashing or not starting at all (PSP is turning off):
+
+- check your CFW Recovery settings and make sure "Force High Memory Layout" or "Use Extra Memory" (depends on CFW) is
+  disabled.
+- try disabling any plugins you might have.
+- check if the ISO was correctly patched, for v1.0 CRC32 after patching should be `7CB7E758` or try running ISO in the
+  emulator.
+
+You can join our Discord and ping Kotcrab if you have any other issues or questions:
 
 - https://discord.gg slash YbbqZ67dhQ
