@@ -1,0 +1,53 @@
+## Maven
+target/
+
+## Java
+
+*.class
+*.war
+*.ear
+hs_err_pid*
+
+## Android Studio and Intellij
+
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
+
+## Eclipse
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.pydevproject
+.project
+.classpath
+.externalToolBuilders/
+*.launch
+
+## NetBeans
+
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+## Gradle
+
+.gradle
+build/
+/target
+
+.kotlin/

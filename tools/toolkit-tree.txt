@@ -1,0 +1,838 @@
+File listing for '_Patch'
+┌ _Patch
+│
+├───src
+│   │   ULJM05968.BIN
+│   │   ULJM05969.BIN
+│   │   images-1.json
+│   │   images-2.json
+│   │   
+│   ├───bat
+│   │       patch.bat
+│   │       
+│   ├───custom-data-cpk-files-1
+│   │   └───icon
+│   │           ICON0.png
+│   │           SaveIcon.png
+│   │           newgame.png
+│   │           
+│   ├───custom-data-cpk-files-2
+│   │   └───icon
+│   │           ICON0_2.png
+│   │           SaveIcon_2.png
+│   │           newgame_2.png
+│   │           
+│   ├───custom-iso-files-1
+│   │   └───PSP_GAME
+│   │           ICON0.PNG
+│   │           PARAM.SFO
+│   │           PIC0.PNG
+│   │           
+│   ├───custom-iso-files-2
+│   │   └───PSP_GAME
+│   │           ICON0.PNG
+│   │           PARAM.SFO
+│   │           PIC0.PNG
+│   │           
+│   ├───custom-stream-cpk-files-1
+│   │   └───PMFMOVIE
+│   │           op1.pmf
+│   │           
+│   ├───custom-stream-cpk-files-2
+│   │   └───PMFMOVIE
+│   │           op2.pmf
+│   │           
+│   ├───eboot-1
+│   │       088EC71C-backlog.bin
+│   │       08945F12-chara.bin
+│   │       
+│   ├───eboot-2
+│   │       088f378C-backlog.bin
+│   │       08954478-chara.bin
+│   │       
+│   ├───font
+│   │   │   marux-src.png
+│   │   │   marux.png
+│   │   │   minx.png
+│   │   │   popx.png
+│   │   │
+│   │   └───hiero
+│   │           dash.png
+│   │           noto.fnt
+│   │           noto.hiero
+│   │           noto.png
+│   │           
+│   ├───iso-base-1
+│   │   │   UMD_DATA.BIN
+│   │   │   
+│   │   └───PSP_GAME
+│   │       │   ICON0.PNG
+│   │       │   PARAM.SFO
+│   │       │   PIC0.PNG
+│   │       │   PIC1.PNG
+│   │       │   
+│   │       └───SYSDIR
+│   │           │   OPNSSMP.BIN
+│   │           │   
+│   │           └───UPDATE
+│   │                   DATA.BIN
+│   │                   EBOOT.BIN
+│   │                   PARAM.SFO
+│   │                   
+│   ├───iso-base-2
+│   │   │   UMD_DATA.BIN
+│   │   │   
+│   │   └───PSP_GAME
+│   │       │   ICON0.PNG
+│   │       │   PARAM.SFO
+│   │       │   PIC0.PNG
+│   │       │   PIC1.PNG
+│   │       │   
+│   │       └───SYSDIR
+│   │           │   OPNSSMP.BIN
+│   │           │   
+│   │           └───UPDATE
+│   │                   DATA.BIN
+│   │                   EBOOT.BIN
+│   │                   PARAM.SFO
+│   │                   
+│   ├───png2pft-1
+│   │   ├───BG
+│   │   │       CINEMA_LOGO.pft.png
+│   │   │       END_2B.pft.png
+│   │   │       END_2D.pft.png
+│   │   │       EP2_TEXT.pft.png
+│   │   │       OCT_4_1986.pft.png
+│   │   │       OCT_5_1986.pft.png
+│   │   │       OP0101.pft.png
+│   │   │       OP0102.pft.png
+│   │   │       OP0103.pft.png
+│   │   │       OP0104.pft.png
+│   │   │       OP0105.pft.png
+│   │   │       OP0106.pft.png
+│   │   │       OP0107.pft.png
+│   │   │       OP0108.pft.png
+│   │   │       OP0201.pft.png
+│   │   │       OP0202.pft.png
+│   │   │       OP0203.pft.png
+│   │   │       OP0204.pft.png
+│   │   │       OP0205.pft.png
+│   │   │       OP0206.pft.png
+│   │   │       OP0207.pft.png
+│   │   │       OP0208.pft.png
+│   │   │       PURGATORIO.pft.png
+│   │   │       TEXT001.pft.png
+│   │   │       pspiv_0014.pft.png
+│   │   │       pspiv_0015.pft.png
+│   │   │       pspiv_0020.pft.png
+│   │   │       
+│   │   ├───HisThumb
+│   │   │       Thumb_E1_0001.pft.png
+│   │   │       Thumb_E1_0002.pft.png
+│   │   │       Thumb_E1_0003.pft.png
+│   │   │       Thumb_E1_0004.pft.png
+│   │   │       Thumb_E1_0005.pft.png
+│   │   │       Thumb_E1_0006.pft.png
+│   │   │       Thumb_E1_0007.pft.png
+│   │   │       Thumb_E1_0008.pft.png
+│   │   │       Thumb_E1_0009.pft.png
+│   │   │       Thumb_E1_0010.pft.png
+│   │   │       Thumb_E1_0011.pft.png
+│   │   │       Thumb_E1_0012.pft.png
+│   │   │       Thumb_E1_0013.pft.png
+│   │   │       Thumb_E1_0014.pft.png
+│   │   │       Thumb_E1_0015.pft.png
+│   │   │       Thumb_E1_0016.pft.png
+│   │   │       Thumb_E1_0017.pft.png
+│   │   │       Thumb_E1_0018.pft.png
+│   │   │       Thumb_E2_0001.pft.png
+│   │   │       Thumb_E2_0002.pft.png
+│   │   │       Thumb_E2_0003.pft.png
+│   │   │       Thumb_E2_0004.pft.png
+│   │   │       Thumb_E2_0005.pft.png
+│   │   │       Thumb_E2_0006.pft.png
+│   │   │       Thumb_E2_0007.pft.png
+│   │   │       Thumb_E2_0008.pft.png
+│   │   │       Thumb_E2_0009.pft.png
+│   │   │       Thumb_E2_0010.pft.png
+│   │   │       Thumb_E2_0011.pft.png
+│   │   │       Thumb_E2_0012.pft.png
+│   │   │       Thumb_E2_0013.pft.png
+│   │   │       Thumb_E2_0014.pft.png
+│   │   │       Thumb_E2_0015.pft.png
+│   │   │       Thumb_E2_0016.pft.png
+│   │   │       Thumb_E2_0017.pft.png
+│   │   │       Thumb_E2_0018.pft.png
+│   │   │       Thumb_E2_0019.pft.png
+│   │   │       Thumb_E2_0020.pft.png
+│   │   │       Thumb_E2_0021.pft.png
+│   │   │       Thumb_T1_0038.pft.png
+│   │   │       Thumb_T2_0040.pft.png
+│   │   │       Thumb_U1_0042.pft.png
+│   │   │       Thumb_U2_0044.pft.png
+│   │   │       
+│   │   ├───bgm_name
+│   │   │       bgm_title_001.pft.png
+│   │   │       bgm_title_002.pft.png
+│   │   │       bgm_title_003.pft.png
+│   │   │       bgm_title_004.pft.png
+│   │   │       bgm_title_005.pft.png
+│   │   │       bgm_title_006.pft.png
+│   │   │       bgm_title_007.pft.png
+│   │   │       bgm_title_008.pft.png
+│   │   │       bgm_title_009.pft.png
+│   │   │       bgm_title_010.pft.png
+│   │   │       bgm_title_011.pft.png
+│   │   │       bgm_title_012.pft.png
+│   │   │       bgm_title_013.pft.png
+│   │   │       bgm_title_014.pft.png
+│   │   │       bgm_title_015.pft.png
+│   │   │       bgm_title_016.pft.png
+│   │   │       bgm_title_017.pft.png
+│   │   │       bgm_title_018.pft.png
+│   │   │       bgm_title_019.pft.png
+│   │   │       bgm_title_020.pft.png
+│   │   │       bgm_title_021.pft.png
+│   │   │       bgm_title_022.pft.png
+│   │   │       bgm_title_023.pft.png
+│   │   │       bgm_title_024.pft.png
+│   │   │       bgm_title_025.pft.png
+│   │   │       bgm_title_026.pft.png
+│   │   │       bgm_title_027.pft.png
+│   │   │       bgm_title_028.pft.png
+│   │   │       bgm_title_029.pft.png
+│   │   │       bgm_title_030.pft.png
+│   │   │       bgm_title_031.pft.png
+│   │   │       bgm_title_032.pft.png
+│   │   │       bgm_title_033.pft.png
+│   │   │       bgm_title_034.pft.png
+│   │   │       bgm_title_035.pft.png
+│   │   │       bgm_title_036.pft.png
+│   │   │       bgm_title_037.pft.png
+│   │   │       bgm_title_038.pft.png
+│   │   │       bgm_title_039.pft.png
+│   │   │       bgm_title_040.pft.png
+│   │   │       bgm_title_041.pft.png
+│   │   │       bgm_title_042.pft.png
+│   │   │       bgm_title_043.pft.png
+│   │   │       bgm_title_044.pft.png
+│   │   │       bgm_title_045.pft.png
+│   │   │       bgm_title_046.pft.png
+│   │   │       bgm_title_047.pft.png
+│   │   │       bgm_title_048.pft.png
+│   │   │       bgm_title_049.pft.png
+│   │   │       bgm_title_050.pft.png
+│   │   │       bgm_title_051.pft.png
+│   │   │       bgm_title_052.pft.png
+│   │   │       bgm_title_053.pft.png
+│   │   │       bgm_title_054.pft.png
+│   │   │       bgm_title_055.pft.png
+│   │   │       bgm_title_056.pft.png
+│   │   │       bgm_title_057.pft.png
+│   │   │       bgm_title_058.pft.png
+│   │   │       bgm_title_059.pft.png
+│   │   │       bgm_title_060.pft.png
+│   │   │       bgm_title_061.pft.png
+│   │   │       bgm_title_062.pft.png
+│   │   │       bgm_title_063.pft.png
+│   │   │       bgm_title_064.pft.png
+│   │   │       bgm_title_065.pft.png
+│   │   │       bgm_title_066.pft.png
+│   │   │       bgm_title_067.pft.png
+│   │   │       bgm_title_068.pft.png
+│   │   │       bgm_title_069.pft.png
+│   │   │       bgm_title_070.pft.png
+│   │   │       bgm_title_071.pft.png
+│   │   │       bgm_title_072.pft.png
+│   │   │       bgm_title_073.pft.png
+│   │   │       bgm_title_074.pft.png
+│   │   │       bgm_title_075.pft.png
+│   │   │       bgm_title_076.pft.png
+│   │   │       bgm_title_077.pft.png
+│   │   │       bgm_title_078.pft.png
+│   │   │       bgm_title_079.pft.png
+│   │   │       bgm_title_080.pft.png
+│   │   │       bgm_title_081.pft.png
+│   │   │       bgm_title_082.pft.png
+│   │   │       bgm_title_083.pft.png
+│   │   │       bgm_title_084.pft.png
+│   │   │       bgm_title_085.pft.png
+│   │   │       bgm_title_086.pft.png
+│   │   │       bgm_title_087.pft.png
+│   │   │       bgm_title_088.pft.png
+│   │   │       bgm_title_089.pft.png
+│   │   │       bgm_title_090.pft.png
+│   │   │       bgm_title_091.pft.png
+│   │   │       bgm_title_092.pft.png
+│   │   │       bgm_title_093.pft.png
+│   │   │       bgm_title_094.pft.png
+│   │   │       bgm_title_095.pft.png
+│   │   │       bgm_title_096.pft.png
+│   │   │       bgm_title_097.pft.png
+│   │   │       bgm_title_098.pft.png
+│   │   │       bgm_title_099.pft.png
+│   │   │       bgm_title_100.pft.png
+│   │   │       bgm_title_101.pft.png
+│   │   │       bgm_title_102.pft.png
+│   │   │       bgm_title_103.pft.png
+│   │   │       bgm_title_104.pft.png
+│   │   │       bgm_title_105.pft.png
+│   │   │       bgm_title_106.pft.png
+│   │   │       bgm_title_109.pft.png
+│   │   │       bgm_title_120.pft.png
+│   │   │       bgm_title_123.pft.png
+│   │   │       bgm_title_124.pft.png
+│   │   │       bgm_title_125.pft.png
+│   │   │       bgm_title_126.pft.png
+│   │   │       bgm_title_127.pft.png
+│   │   │       bgm_title_128.pft.png
+│   │   │       
+│   │   ├───chars
+│   │   │       ch_caption.pft.png
+│   │   │       ch_info.pft.png
+│   │   │       ch_side.pft.png
+│   │   │       
+│   │   ├───conf
+│   │   │       con_info.pft.png
+│   │   │       conf_charname.pft.png
+│   │   │       config.pft.png
+│   │   │       sentaku_con.pft.png
+│   │   │       
+│   │   ├───endroll
+│   │   │       END_1A_01.pft.png
+│   │   │       END_1A_02.pft.png
+│   │   │       END_1A_03.pft.png
+│   │   │       END_1A_04.pft.png
+│   │   │       END_1A_05.pft.png
+│   │   │       END_1A_06.pft.png
+│   │   │       END_1A_07.pft.png
+│   │   │       END_1A_08.pft.png
+│   │   │       END_1A_09.pft.png
+│   │   │       END_1A_10.pft.png
+│   │   │       END_1A_11.pft.png
+│   │   │       END_1A_12.pft.png
+│   │   │       END_1A_13.pft.png
+│   │   │       END_1A_14.pft.png
+│   │   │       END_1A_15.pft.png
+│   │   │       END_1A_16.pft.png
+│   │   │       END_1A_17.pft.png
+│   │   │       END_1C_01.pft.png
+│   │   │       END_1C_02.pft.png
+│   │   │       END_1C_03.pft.png
+│   │   │       END_1C_04.pft.png
+│   │   │       END_1C_05.pft.png
+│   │   │       END_1C_06.pft.png
+│   │   │       END_1C_07.pft.png
+│   │   │       END_1C_08.pft.png
+│   │   │       END_1C_09.pft.png
+│   │   │       END_1C_10.pft.png
+│   │   │       END_1C_11.pft.png
+│   │   │       END_1C_12.pft.png
+│   │   │       END_1C_13.pft.png
+│   │   │       END_1C_14.pft.png
+│   │   │       END_1C_15.pft.png
+│   │   │       END_1C_16.pft.png
+│   │   │       END_1C_17.pft.png
+│   │   │       END_1C_18.pft.png
+│   │   │       END_1C_19.pft.png
+│   │   │       END_1C_20.pft.png
+│   │   │       END_1C_21.pft.png
+│   │   │       END_1C_22.pft.png
+│   │   │       END_1C_23.pft.png
+│   │   │       END_1C_24.pft.png
+│   │   │       END_1C_25.pft.png
+│   │   │       END_1C_26.pft.png
+│   │   │       END_1C_27.pft.png
+│   │   │       END_1C_28.pft.png
+│   │   │       END_1C_29.pft.png
+│   │   │       END_1C_30.pft.png
+│   │   │       END_2A_01.pft.png
+│   │   │       END_2A_02.pft.png
+│   │   │       END_2A_03.pft.png
+│   │   │       END_2A_04.pft.png
+│   │   │       END_2A_05.pft.png
+│   │   │       END_2A_06.pft.png
+│   │   │       END_2A_07.pft.png
+│   │   │       END_2A_08.pft.png
+│   │   │       END_2A_09.pft.png
+│   │   │       END_2A_10.pft.png
+│   │   │       END_2A_11.pft.png
+│   │   │       END_2A_12.pft.png
+│   │   │       END_2A_13.pft.png
+│   │   │       END_2A_14.pft.png
+│   │   │       END_2A_15.pft.png
+│   │   │       END_2A_16.pft.png
+│   │   │       END_2A_17.pft.png
+│   │   │       END_2C_01.pft.png
+│   │   │       END_2C_02.pft.png
+│   │   │       END_2C_03.pft.png
+│   │   │       END_2C_04.pft.png
+│   │   │       END_2C_05.pft.png
+│   │   │       END_2C_06.pft.png
+│   │   │       END_2C_07.pft.png
+│   │   │       END_2C_08.pft.png
+│   │   │       END_2C_09.pft.png
+│   │   │       END_2C_10.pft.png
+│   │   │       END_2C_11.pft.png
+│   │   │       END_2C_12.pft.png
+│   │   │       END_2C_13.pft.png
+│   │   │       END_2C_14.pft.png
+│   │   │       END_2C_15.pft.png
+│   │   │       END_2C_16.pft.png
+│   │   │       END_2C_17.pft.png
+│   │   │       END_2C_18.pft.png
+│   │   │       END_2C_19.pft.png
+│   │   │       END_2C_20.pft.png
+│   │   │       END_2C_21.pft.png
+│   │   │       END_2C_22.pft.png
+│   │   │       END_2C_23.pft.png
+│   │   │       END_2C_24.pft.png
+│   │   │       END_2C_25.pft.png
+│   │   │
+│   │   ├───itemget
+│   │   │       TEXT004.pft.png
+│   │   │       TEXT005.pft.png
+│   │   │       
+│   │   ├───music
+│   │   │       bgm_bgm_info.pft.png
+│   │   │       bgm_caption.pft.png
+│   │   │       bgm_title.pft.png
+│   │   │       
+│   │   ├───picture
+│   │   │       cg_caption.pft.png
+│   │   │       cg_info.pft.png
+│   │   │       cg_logo.pft.png
+│   │   │       
+│   │   ├───sys
+│   │   │       Thumb.pft.png
+│   │   │       achievement.pft.png
+│   │   │       loading.pft.png
+│   │   │       mes_caption.pft.png
+│   │   │       mes_info.pft.png
+│   │   │       msgwnd.pft.png
+│   │   │       sentaku.pft.png
+│   │   │       sentaku_sys.pft.png
+│   │   │       
+│   │   ├───tips
+│   │   │       tips_caption.pft.png
+│   │   │       tips_info.pft.png
+│   │   │       
+│   │   └───title
+│   │           text_bgm.pft.png
+│   │           text_cg.pft.png
+│   │           text_chars.pft.png
+│   │           text_config.pft.png
+│   │           text_continue.pft.png
+│   │           text_data.pft.png
+│   │           text_ep1.pft.png
+│   │           text_ep2.pft.png
+│   │           text_load.pft.png
+│   │           text_start.pft.png
+│   │           text_tea.pft.png
+│   │           text_tips.pft.png
+│   │           text_ura.pft.png
+│   │           titlelogo.pft.png
+│   │           txt_trailer.pft.png
+│   │           
+│   ├───png2pft-2
+│   │   ├───BG
+│   │   │       CINEMA_LOGO.pft.png
+│   │   │       CINEMA_LOGO2.pft.png
+│   │   │       END_2B.pft.png
+│   │   │       END_3B.pft.png
+│   │   │       ENJ_MIRAI01.pft.png
+│   │   │       EP4LAST01.pft.png
+│   │   │       EP4LAST02.pft.png
+│   │   │       EP4LAST03.pft.png
+│   │   │       EP4LAST04.pft.png
+│   │   │       EP4LAST05.pft.png
+│   │   │       EP4LAST06.pft.png
+│   │   │       EP4LAST07.pft.png
+│   │   │       EP4LAST08.pft.png
+│   │   │       EP4LAST09.pft.png
+│   │   │       OCT_1998.pft.png
+│   │   │       OCT_4_1986.pft.png
+│   │   │       OCT_4_1998.pft.png
+│   │   │       OCT_4_1998B.pft.png
+│   │   │       OCT_5_1986.pft.png
+│   │   │       SYSTEM1.pft.png
+│   │   │       SYSTEM2.pft.png
+│   │   │       SYSTEM3.pft.png
+│   │   │       SYSTEM4.pft.png
+│   │   │       SYSTEM5.pft.png
+│   │   │       TEXT001.pft.png
+│   │   │       TEXT010.pft.png
+│   │   │       TEXT010A.pft.png
+│   │   │       TEXT010B.pft.png
+│   │   │       TEXT010C.pft.png
+│   │   │       TEXT011_R.pft.png
+│   │   │       TEXT012_R.pft.png
+│   │   │       UNKNOWN01.pft.png
+│   │   │       big_GOA_A11_002.pft.png
+│   │   │       big_GOA_A11_003.pft.png
+│   │   │       big_GOA_A11_004.pft.png
+│   │   │       pspiv_0029.pft.png
+│   │   │       pspiv_0033.pft.png
+│   │   │       pspiv_0034.pft.png
+│   │   │       
+│   │   ├───HisThumb
+│   │   │       Thumb_E3_0001.pft.png
+│   │   │       Thumb_E3_0002.pft.png
+│   │   │       Thumb_E3_0003.pft.png
+│   │   │       Thumb_E3_0004.pft.png
+│   │   │       Thumb_E3_0005.pft.png
+│   │   │       Thumb_E3_0006.pft.png
+│   │   │       Thumb_E3_0007.pft.png
+│   │   │       Thumb_E3_0008.pft.png
+│   │   │       Thumb_E3_0009.pft.png
+│   │   │       Thumb_E3_0010.pft.png
+│   │   │       Thumb_E3_0011.pft.png
+│   │   │       Thumb_E3_0012.pft.png
+│   │   │       Thumb_E3_0013.pft.png
+│   │   │       Thumb_E3_0014.pft.png
+│   │   │       Thumb_E3_0015.pft.png
+│   │   │       Thumb_E3_0016.pft.png
+│   │   │       Thumb_E3_0017.pft.png
+│   │   │       Thumb_E3_0018.pft.png
+│   │   │       Thumb_E3_0019.pft.png
+│   │   │       Thumb_E4_0001.pft.png
+│   │   │       Thumb_E4_0002.pft.png
+│   │   │       Thumb_E4_0003.pft.png
+│   │   │       Thumb_E4_0004.pft.png
+│   │   │       Thumb_E4_0005.pft.png
+│   │   │       Thumb_E4_0006.pft.png
+│   │   │       Thumb_E4_0007.pft.png
+│   │   │       Thumb_E4_0008.pft.png
+│   │   │       Thumb_E4_0009.pft.png
+│   │   │       Thumb_E4_0010.pft.png
+│   │   │       Thumb_E4_0011.pft.png
+│   │   │       Thumb_E4_0012.pft.png
+│   │   │       Thumb_E4_0013.pft.png
+│   │   │       Thumb_E4_0014.pft.png
+│   │   │       Thumb_E4_0015.pft.png
+│   │   │       Thumb_E4_0016.pft.png
+│   │   │       Thumb_E4_0017.pft.png
+│   │   │       Thumb_E4_0018.pft.png
+│   │   │       Thumb_E4_0019.pft.png
+│   │   │       Thumb_E4_0020.pft.png
+│   │   │       Thumb_T3_0001.pft.png
+│   │   │       Thumb_T4_0001.pft.png
+│   │   │       Thumb_U3_0001.pft.png
+│   │   │       Thumb_U4_0001.pft.png
+│   │   │       
+│   │   ├───bgm_name
+│   │   │       bgm_title_001.pft.png
+│   │   │       bgm_title_002.pft.png
+│   │   │       bgm_title_003.pft.png
+│   │   │       bgm_title_004.pft.png
+│   │   │       bgm_title_005.pft.png
+│   │   │       bgm_title_006.pft.png
+│   │   │       bgm_title_007.pft.png
+│   │   │       bgm_title_008.pft.png
+│   │   │       bgm_title_009.pft.png
+│   │   │       bgm_title_010.pft.png
+│   │   │       bgm_title_011.pft.png
+│   │   │       bgm_title_012.pft.png
+│   │   │       bgm_title_013.pft.png
+│   │   │       bgm_title_014.pft.png
+│   │   │       bgm_title_015.pft.png
+│   │   │       bgm_title_016.pft.png
+│   │   │       bgm_title_017.pft.png
+│   │   │       bgm_title_018.pft.png
+│   │   │       bgm_title_019.pft.png
+│   │   │       bgm_title_020.pft.png
+│   │   │       bgm_title_021.pft.png
+│   │   │       bgm_title_022.pft.png
+│   │   │       bgm_title_023.pft.png
+│   │   │       bgm_title_024.pft.png
+│   │   │       bgm_title_025.pft.png
+│   │   │       bgm_title_026.pft.png
+│   │   │       bgm_title_027.pft.png
+│   │   │       bgm_title_028.pft.png
+│   │   │       bgm_title_029.pft.png
+│   │   │       bgm_title_030.pft.png
+│   │   │       bgm_title_031.pft.png
+│   │   │       bgm_title_032.pft.png
+│   │   │       bgm_title_033.pft.png
+│   │   │       bgm_title_034.pft.png
+│   │   │       bgm_title_035.pft.png
+│   │   │       bgm_title_036.pft.png
+│   │   │       bgm_title_037.pft.png
+│   │   │       bgm_title_038.pft.png
+│   │   │       bgm_title_039.pft.png
+│   │   │       bgm_title_040.pft.png
+│   │   │       bgm_title_041.pft.png
+│   │   │       bgm_title_042.pft.png
+│   │   │       bgm_title_043.pft.png
+│   │   │       bgm_title_044.pft.png
+│   │   │       bgm_title_045.pft.png
+│   │   │       bgm_title_046.pft.png
+│   │   │       bgm_title_047.pft.png
+│   │   │       bgm_title_048.pft.png
+│   │   │       bgm_title_049.pft.png
+│   │   │       bgm_title_050.pft.png
+│   │   │       bgm_title_051.pft.png
+│   │   │       bgm_title_052.pft.png
+│   │   │       bgm_title_053.pft.png
+│   │   │       bgm_title_054.pft.png
+│   │   │       bgm_title_055.pft.png
+│   │   │       bgm_title_056.pft.png
+│   │   │       bgm_title_057.pft.png
+│   │   │       bgm_title_058.pft.png
+│   │   │       bgm_title_059.pft.png
+│   │   │       bgm_title_060.pft.png
+│   │   │       bgm_title_061.pft.png
+│   │   │       bgm_title_062.pft.png
+│   │   │       bgm_title_063.pft.png
+│   │   │       bgm_title_064.pft.png
+│   │   │       bgm_title_065.pft.png
+│   │   │       bgm_title_066.pft.png
+│   │   │       bgm_title_067.pft.png
+│   │   │       bgm_title_068.pft.png
+│   │   │       bgm_title_069.pft.png
+│   │   │       bgm_title_070.pft.png
+│   │   │       bgm_title_071.pft.png
+│   │   │       bgm_title_072.pft.png
+│   │   │       bgm_title_073.pft.png
+│   │   │       bgm_title_074.pft.png
+│   │   │       bgm_title_075.pft.png
+│   │   │       bgm_title_076.pft.png
+│   │   │       bgm_title_077.pft.png
+│   │   │       bgm_title_078.pft.png
+│   │   │       bgm_title_079.pft.png
+│   │   │       bgm_title_080.pft.png
+│   │   │       bgm_title_081.pft.png
+│   │   │       bgm_title_082.pft.png
+│   │   │       bgm_title_083.pft.png
+│   │   │       bgm_title_084.pft.png
+│   │   │       bgm_title_085.pft.png
+│   │   │       bgm_title_086.pft.png
+│   │   │       bgm_title_087.pft.png
+│   │   │       bgm_title_088.pft.png
+│   │   │       bgm_title_089.pft.png
+│   │   │       bgm_title_090.pft.png
+│   │   │       bgm_title_091.pft.png
+│   │   │       bgm_title_092.pft.png
+│   │   │       bgm_title_093.pft.png
+│   │   │       bgm_title_094.pft.png
+│   │   │       bgm_title_095.pft.png
+│   │   │       bgm_title_096.pft.png
+│   │   │       bgm_title_097.pft.png
+│   │   │       bgm_title_098.pft.png
+│   │   │       bgm_title_099.pft.png
+│   │   │       bgm_title_100.pft.png
+│   │   │       bgm_title_101.pft.png
+│   │   │       bgm_title_102.pft.png
+│   │   │       bgm_title_103.pft.png
+│   │   │       bgm_title_104.pft.png
+│   │   │       bgm_title_105.pft.png
+│   │   │       bgm_title_106.pft.png
+│   │   │       bgm_title_109.pft.png
+│   │   │       bgm_title_120.pft.png
+│   │   │       bgm_title_123.pft.png
+│   │   │       bgm_title_124.pft.png
+│   │   │       bgm_title_125.pft.png
+│   │   │       bgm_title_126.pft.png
+│   │   │       bgm_title_127.pft.png
+│   │   │       bgm_title_128.pft.png
+│   │   │       
+│   │   ├───chars
+│   │   │       ch_caption.pft.png
+│   │   │       ch_info.pft.png
+│   │   │       ch_side.pft.png
+│   │   │       
+│   │   ├───conf
+│   │   │       con_info.pft.png
+│   │   │       conf_charname.pft.png
+│   │   │       config_p2.pft.png
+│   │   │       sentaku_con.pft.png
+│   │   │       
+│   │   ├───endroll
+│   │   │       END_3A_01.pft.png
+│   │   │       END_3A_02.pft.png
+│   │   │       END_3A_03.pft.png
+│   │   │       END_3A_04.pft.png
+│   │   │       END_3A_05.pft.png
+│   │   │       END_3A_06.pft.png
+│   │   │       END_3A_07.pft.png
+│   │   │       END_3A_08.pft.png
+│   │   │       END_3A_09.pft.png
+│   │   │       END_3A_10.pft.png
+│   │   │       END_3A_11.pft.png
+│   │   │       END_3A_12.pft.png
+│   │   │       END_3A_13.pft.png
+│   │   │       END_3A_14.pft.png
+│   │   │       END_3A_15.pft.png
+│   │   │       END_3A_16.pft.png
+│   │   │       END_3A_17.pft.png
+│   │   │       END_3A_18.pft.png
+│   │   │       END_3A_19.pft.png
+│   │   │       END_3A_20.pft.png
+│   │   │       END_3A_21.pft.png
+│   │   │       END_3A_22.pft.png
+│   │   │       END_3A_23.pft.png
+│   │   │       END_3A_24.pft.png
+│   │   │       END_3A_25.pft.png
+│   │   │       END_3B_01.pft.png
+│   │   │       END_3B_02.pft.png
+│   │   │       END_3B_03.pft.png
+│   │   │       END_3B_04.pft.png
+│   │   │       END_3B_05.pft.png
+│   │   │       END_3B_06.pft.png
+│   │   │       END_3B_07.pft.png
+│   │   │       END_3B_08.pft.png
+│   │   │       END_3B_09.pft.png
+│   │   │       END_3B_10.pft.png
+│   │   │       END_3B_11.pft.png
+│   │   │       END_3B_12.pft.png
+│   │   │       END_3B_13.pft.png
+│   │   │       END_3B_14.pft.png
+│   │   │       END_3B_15.pft.png
+│   │   │       END_3B_16.pft.png
+│   │   │       END_3B_17.pft.png
+│   │   │       END_3B_18.pft.png
+│   │   │       END_3B_19.pft.png
+│   │   │       END_3B_20.pft.png
+│   │   │       END_3B_21.pft.png
+│   │   │       END_3B_22.pft.png
+│   │   │       END_3B_23.pft.png
+│   │   │       END_3B_24.pft.png
+│   │   │       END_3B_25.pft.png
+│   │   │       END_3B_26.pft.png
+│   │   │       END_3B_27.pft.png
+│   │   │       END_4A_01.pft.png
+│   │   │       END_4A_02.pft.png
+│   │   │       END_4A_03.pft.png
+│   │   │       END_4A_04.pft.png
+│   │   │       END_4A_05.pft.png
+│   │   │       END_4A_06.pft.png
+│   │   │       END_4A_07.pft.png
+│   │   │       END_4A_08.pft.png
+│   │   │       END_4A_09.pft.png
+│   │   │       END_4A_10.pft.png
+│   │   │       END_4A_11.pft.png
+│   │   │       END_4A_12.pft.png
+│   │   │       END_4A_13.pft.png
+│   │   │       END_4A_14.pft.png
+│   │   │       END_4A_15.pft.png
+│   │   │       END_4A_16.pft.png
+│   │   │       END_4A_17.pft.png
+│   │   │       END_4A_18.pft.png
+│   │   │       END_4A_19.pft.png
+│   │   │       END_4A_20.pft.png
+│   │   │       END_4A_21.pft.png
+│   │   │       END_4A_22.pft.png
+│   │   │       END_4A_23.pft.png
+│   │   │       END_4A_24.pft.png
+│   │   │       END_4A_25.pft.png
+│   │   │       END_4A_26.pft.png
+│   │   │       END_4A_27.pft.png
+│   │   │       END_4A_28.pft.png
+│   │   │       END_4B_01.pft.png
+│   │   │       END_4B_02.pft.png
+│   │   │       END_4B_03.pft.png
+│   │   │       END_4B_04.pft.png
+│   │   │       END_4B_05.pft.png
+│   │   │       END_4B_06.pft.png
+│   │   │       END_4B_07.pft.png
+│   │   │       END_4B_08.pft.png
+│   │   │       END_4B_09.pft.png
+│   │   │       END_4B_10.pft.png
+│   │   │       END_4B_11.pft.png
+│   │   │       END_4B_12.pft.png
+│   │   │       END_4B_13.pft.png
+│   │   │       END_4B_14.pft.png
+│   │   │       END_4B_15.pft.png
+│   │   │       END_4B_16.pft.png
+│   │   │       END_4B_17.pft.png
+│   │   │       END_4B_18.pft.png
+│   │   │       END_4B_19.pft.png
+│   │   │       END_4B_20.pft.png
+│   │   │       END_4B_21.pft.png
+│   │   │       END_4B_22.pft.png
+│   │   │       END_4B_23.pft.png
+│   │   │       END_4B_24.pft.png
+│   │   │       END_4B_25.pft.png
+│   │   │       END_4B_26.pft.png
+│   │   │       END_4B_27.pft.png
+│   │   │
+│   │   ├───itemget
+│   │   │       TEXT004.pft.png
+│   │   │       TEXT005.pft.png
+│   │   │       
+│   │   ├───music
+│   │   │       bgm_bgm_info.pft.png
+│   │   │       bgm_caption.pft.png
+│   │   │       bgm_title.pft.png
+│   │   │       
+│   │   ├───picture
+│   │   │       cg_caption.pft.png
+│   │   │       cg_info.pft.png
+│   │   │       cg_logo2.pft.png
+│   │   │       
+│   │   ├───sys
+│   │   │       Thumb_p2.pft.png
+│   │   │       achievement.pft.png
+│   │   │       loading.pft.png
+│   │   │       mes_caption.pft.png
+│   │   │       mes_info.pft.png
+│   │   │       msgwnd_p2.pft.png
+│   │   │       sentaku.pft.png
+│   │   │       sentaku_sys.pft.png
+│   │   │       
+│   │   ├───tips
+│   │   │       tips_caption.pft.png
+│   │   │       tips_info.pft.png
+│   │   │       
+│   │   └───title
+│   │           text_bgm.pft.png
+│   │           text_cg.pft.png
+│   │           text_chars.pft.png
+│   │           text_config.pft.png
+│   │           text_continue.pft.png
+│   │           text_data.pft.png
+│   │           text_ep3.pft.png
+│   │           text_ep4.pft.png
+│   │           text_load.pft.png
+│   │           text_start.pft.png
+│   │           text_tea.pft.png
+│   │           text_tips.pft.png
+│   │           text_ura.pft.png
+│   │           titlelogo2.pft.png
+│   │           txt_trailer.pft.png
+│   │           
+│   └───translation
+│       │   chapters-1.csv
+│       │   chapters-2.csv
+│       │   characters-1.csv
+│       │   characters-2.csv
+│       │   eboot.txt
+│       │   ep1.json
+│       │   ep2.json
+│       │   ep3.json
+│       │   ep4.json
+│       │   ep5.json
+│       │   ep6.json
+│       │   ep7.json
+│       │   ep8.json
+│       │   names-1.csv
+│       │   names-2.csv
+│       │   tips-1.csv
+│       │   tips-2.csv
+│       │   trailer-1.json
+│       │   trailer-2.json
+│       │   
+│       └───subs
+│               EP2_58_eng.srt
+│               EP2_58_rom.srt
+│               EP3_83_eng.srt
+│               EP3_83_rom.srt
+│               EP4_109_eng.srt
+│               EP4_109_rom.srt
+│               
+└───tools
+        7za.dll
+        7za.exe
+        7zxa.dll
+        mkisofs.exe
+        xdelta.exe

@@ -1,0 +1,3 @@
+rootProject.name = 'umineko'
+
+includeBuild('../translation-tools')

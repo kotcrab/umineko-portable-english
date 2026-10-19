@@ -1,0 +1,32 @@
+buildscript {
+  ext.kotlinVersion = '2.4.10'
+  repositories {
+    mavenCentral()
+  }
+
+  dependencies {
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+  }
+}
+
+group 'umineko'
+version = '1.0.0'
+
+allprojects {
+  apply plugin: 'java'
+  apply plugin: 'kotlin'
+
+  repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+  }
+
+  kotlin {
+    jvmToolchain(21)
+  }
+}
+
+dependencies {
+  implementation "translation-tools:common"
+  implementation "org.apache.commons:commons-csv:1.14.1"
+}
